@@ -6,15 +6,17 @@
 // an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
 
-#include <cstdlib>
 #include <cpr/cpr.h>
-#include <nlohmann/json.hpp>
+
 #include <chrono>
+#include <cstdlib>
 #include <iomanip>
 #include <iostream>
 #include <random>
 #include <string>
 #include <thread>
+
+#include <nlohmann/json.hpp>
 
 using json = nlohmann::json;
 
