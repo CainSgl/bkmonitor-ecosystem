@@ -273,6 +273,7 @@ Span Kind 用于说明 Span 在调用关系中的角色。创建 Span 时，可�
 from opentelemetry.trace import SpanKind
 
 with self.tracer.start_as_current_span("ClientDemo/request", kind=SpanKind.CLIENT):
+    pass # 在此执行实际请求
 ```
 
 - <a href="https://opentelemetry.io/docs/languages/python/instrumentation/#creating-spans" target="_blank">Creating spans</a>
